@@ -30,19 +30,19 @@ function actualiarReloj() {
     const phrases = document.getElementById("phrases");
     let newPhrases = "";
     if(horaActual.getHours()<7){
-        newPhrases = "Es hora de descansar. Apaga y sigue mañana"
+        newPhrases = "Ya le has dado duro, ahora a descansar y mañana mas."
     } else if(horaActual.getHours()<12){
-        newPhrases = "Buenos días, desayuna fuerte y a darle al código"
+        newPhrases = "Buenos días, desayuna fuerte y a darle al código."
     } else if(horaActual.getHours()<14){
-        newPhrases = "Echa un rato más pero no olvides comer"
+        newPhrases = "Estas a tope, pero no te olvides comer."
     } else if(horaActual.getHours()<16){
-        newPhrases = "Espero que hayas comido"
+        newPhrases = "Espero que hayas comido, si no es así, estas tardando."
     } else if(horaActual.getHours()<18){
-        newPhrases = "Buenas tardes, el último empujón"
+        newPhrases = "Buenas tardes, venga, dale duro hasta la cena."
     } else if(horaActual.getHours()<22){
-        newPhrases = "Esto ya son horas extras, ... piensa en parar pronto"
+        newPhrases = "Esto ya son horas extras, ... piensa en oxigenar la mente"
     } else {
-        newPhrases = "Buenas noches, es hora de pensar en parar y descansar"
+        newPhrases = "Buenas noches, lo que no hayas programado... descansa que falta te hace."
     }
     phrases.textContent = newPhrases
 };
