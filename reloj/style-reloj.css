@@ -67,11 +67,12 @@ header a{
 }
 
 header img{
-	display: ;
+	display: flex;
 	justify-content: center;
     height: 100%;
     background-color: transparent;
 }
+ /* MAIN-Reloj */
 
 .datatime {
 	background-color: white;
@@ -118,6 +119,8 @@ header img{
 	color: rgb(0 95 176);
 	padding: 5px;
 }
+
+/* MAIN Password */
 
 /* FOOTER */
 
