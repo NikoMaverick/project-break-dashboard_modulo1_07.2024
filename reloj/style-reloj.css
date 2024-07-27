@@ -45,7 +45,7 @@ table {
 /* RELOJ */
 
 body {
-	background-image: url(../assets/img/Top\ Gun\ 11.png);
+	background-image: url(../assets/img/Top\ Gun\ 1.jpeg);
 	background-size: 100%;
 } 
 
@@ -61,7 +61,6 @@ header a{
     display: flex;
 	justify-content: center;
     align-items: center;
-    color: rgb(4, 4, 77);
     background-color: transparent;
 	height: 100%;
 }
@@ -69,13 +68,13 @@ header a{
 header img{
 	display: flex;
 	justify-content: center;
-    height: 100%;
+    height: 90%;
     background-color: transparent;
 }
  /* MAIN-Reloj */
 
 .datatime {
-	background-color: white;
+	background-color: black;
 	opacity: 0.6;
 	padding: 2%;
 	position: absolute;
@@ -83,16 +82,21 @@ header img{
     top: 50%;
     transform: translate(-50%, -50%);
 	width: 350px;
-	height: 160px;
+	height: 180px;
 	border-radius: 20px;
 	font-size: 50px;
 	text-align: center;
+	border-radius: 20px;
+	border-top-left-radius: 70px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 70px;
 }
 .son {
 	font-size: 20px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-decoration: none;
-	color: rgb(0 95 176);
+	color: white;
 	padding: 5px;
 }
 
@@ -100,7 +104,7 @@ header img{
 	font-size: 50px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-decoration: none;
-	color: rgb(0 95 176);
+	color: white;
 	padding: 5px;
 }
 
@@ -108,7 +112,7 @@ header img{
 	font-size: 20px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-decoration: none;
-	color: rgb(0 95 176);
+	color: white;
 	padding: 5px;
 }
 
@@ -116,35 +120,43 @@ header img{
 	font-size: 20px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-decoration: none;
-	color: rgb(0 95 176);
+	color: white;
 	padding: 5px;
 }
 
-/* MAIN Password */
-
 /* FOOTER */
 
+.footer{
+	display: flex;
+	justify-content: center;
+	align-items: end;
+	background-color: none;
+	position: relative;
+	top: 370px;
+}
+
 .icons{
-    position: absolute;
-    right: 42%;
-    bottom: 5%;
-    width: 16%;
-    height: 8%;
-    background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    width: 250px;
+    height: 50px;
+    background-color: none;
     opacity: 0.6;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 10px;
+	gap: 20px;
 }
 
 .icons a{
-    filter: invert(51%) sepia(20%) saturate(1566%) hue-rotate(150deg) brightness(95%) contrast(91%);
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(360deg) brightness(102%) contrast(102%);
 }
 
 .icons img{
+	background-color: white;
     margin-top: 3%;
-    width: 17%;
+    width: 30px;
 	position: relative;  
-	left: 15%;	 
+	left: 15%;
+	padding: 5px;
+	border-radius: 30%;
 }
+
