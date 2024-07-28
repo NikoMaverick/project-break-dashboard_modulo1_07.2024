@@ -71,17 +71,9 @@ header img{
     height: 90%;
     background-color: transparent;
 }
-
  /* MAIN-Url */
-#menu-categorias{ 
-    display:none;
-}
-#menu-up{
-    display:block;
-}
 
-
-.main{
+.main-urls{
     background-color: transparent;
 	opacity: 0.6;
 	padding: 2%;
@@ -172,6 +164,9 @@ header img{
 
 .urlsnew{
     display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
     width: 820px;
     height: 210px;
     overflow-y: scroll;
@@ -294,13 +289,4 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
-
-
-/* Media Query segun pantalla 
-320px — 480px: Dispositivos móviles
-481px — 768px: iPads, Tabletas
-769px — 1024px: pantallas pequeñas, laptops
-1025px — 1200px: Computadoras de escritorio, pantallas grandes
-1201px y más —  Pantallas extra-grandes, TV
-*/
 

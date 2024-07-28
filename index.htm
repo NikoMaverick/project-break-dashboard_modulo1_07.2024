@@ -3,26 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba</title>
+    <title>Dashboard Maverick</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
+  <header class="header-top">
+    <h1>DASHBOARD MAVERICK</h1>
+    </a>
+  </header>
+      <main class="maintop">
+        
+        <section class="reloj-top">
+          <main class="main-reloj">
+            <div class="datatime" id="datatime">
+              <p class="son" id="son">Son las...</p>
+              <p class="reloj" id="reloj"></p>
+              <p class="date" id="date"></p>
+              <p class="phrases" id="phrases"></p>
+            </div>
+          </main>
+        </section>
 
-    </header>
-    <main class="maintop">
-        <section class="relojtop"></section>
-        <section class="passwordtop"></section>
-        <section class="urltop"></section>
+        <section class="passwor-top">
+          <main class="main-password">
+            <div class="title">
+              <h2>Crea tu clave segura</h2>
+              <img src="../assets/icons/lock.svg" alt="link">
+            </div>
+            <div class="securepass" id="securepass">
+              <label for="number">Elige la longitud de tu clave</label>
+              <input type="number" id="pass" name="pass" min="12" max="50" value="12">
+            </div>
+            <div class="button">
+              <button type="button" onclick="newPass()">Generar clave</button>
+            </div>
+          <div id="newResult" class="newResult"></div>       
+        </main>
+        </section>
+
+        <section class="urltop">
+          <main class="main-urls">
+            <div class="title-url">
+              <img src="../assets/icons/link-45deg.svg" class="linktitle" alt="link">
+              <h2>Añade tus páginas favoritas</h2>
+            </div>
+              <form class="links">
+                <div class="divlinks">
+                  <input type="text" name="text" class="textinput" id="textinput" placeholder="Nombra tu enlace">
+                  <input type="url" name="url" class="urlinput" id="urlinput" placeholder="Pega tu enlace">
+                  <button class="btn-link" id="btn-link" type="button">Añadir enlace</button>
+                </div>
+              </form>
+              <ul class="urlsnew" id="urlsnew"></ul>
+          </main>
+        </section>
+
         <section class="cloudtop"></section>
     </main>
     <footer class="footer">
-        <nav class="icons">
-          <a href="../reloj/index-reloj.html"><img src="./assets/icons/clock.svg" width="2" class="footericons" alt="clock"></a>
-          <a href="../password/index-password.html"><img src="./assets/icons/lock.svg" class="footericons" alt="lock"></a>
-          <a href="../urls/index-urls.html"><img src="./assets/icons/link-45deg.svg" class="footericons" alt="link"></a>
-          <a href="#"><img src="./assets/icons/cloud-sun.svg" class="footericons" alt="cloud"></a>
-        </nav>
-      </footer>
+      <nav class="icons">
+        <a href="../reloj/index-reloj.html" target="_self"><img src="../assets/icons/clock.svg" width="2" class="footericons" alt="clock"></a>
+        <a href="../password/index-password.html" target="_self"><img src="../assets/icons/lock.svg" class="footericons" alt="lock"></a>
+        <a href="../urls/index-urls.html" target="_self"><img src="../assets/icons/link-45deg.svg" class="footericons" alt="link"></a>
+        <a href="../cloud/html-cloud.html" target="_self"><img src="../assets/icons/cloud-sun.svg" class="footericons" alt="cloud"></a>
+        <a href="https://www.youtube.com/watch?v=o7wMB_LE2SQ" target="_blank"><img src="../assets/icons/film.svg" class="footericonstrailer" alt="link">
+          <h3>Top Gun</h3></a>
+        <a href="https://www.youtube.com/watch?v=P95JgS5_H1s" target="_blank"><img src="../assets/icons/film.svg" class="footericonstrailer" alt="link">
+          <h3>Top Gun: Maverick</h3></a>
+      </nav>
+    </footer>
+    
+      <script src="./reloj/script-reloj.js"></script>
+      <script src="./password/script.password.js"></script>
+      <script src="./urls/script-url.js"></script>
+      <script src="./script-wallpaper.js"></script>
+      <script src=""></script>
 </body>
 </html>
