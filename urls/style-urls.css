@@ -1,0 +1,306 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* URLS */
+
+body {
+	background-image: url(../assets/img/Top\ Gun\ 13.jpeg);
+	background-size: 100%;
+} 
+
+header{
+	display: flex;
+    justify-content: center;
+    height: 150px;
+	margin-top: 20px;
+    background-color: transparent;
+}
+
+header a{
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    background-color: transparent;
+	height: 100%;
+}
+
+header img{
+	display: flex;
+	justify-content: center;
+    height: 90%;
+    background-color: transparent;
+}
+
+ /* MAIN-Url */
+#menu-categorias{ 
+    display:none;
+}
+#menu-up{
+    display:block;
+}
+
+
+.main{
+    background-color: transparent;
+	opacity: 0.6;
+	padding: 2%;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 250px;
+    margin: 5px 5px;
+    border-top-left-radius: 70px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 70px;
+    
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    gap: 15px;
+    background-color: black;
+    border-top-left-radius: 70px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 70px;
+}
+
+.title img{
+    width: 50px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(360deg) brightness(102%) contrast(102%);
+    
+
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 800px;
+    gap: 50px;
+    background-color: transparent;
+    border-top-left-radius: 70px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 70px;
+
+}
+
+.links{
+    height: 80px;
+    
+}
+
+
+.textinput, .urlinput{
+    width: 300px;
+    height: 25px;
+    border-top-left-radius: 30px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 30px;
+    border: none;
+    font-family: ;
+    font-size: 18px;
+    color: #005faf;
+    text-indent: 10px;
+}
+
+.btn-link{
+    width: 150px;
+    height: 30px;
+    border-top-left-radius: 30px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 30px;
+    border: none;
+    background-color: #005fb0;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    
+}
+
+.urlsnew{
+    display: flex;
+    width: 820px;
+    height: 210px;
+    overflow-y: scroll;
+    background-color: transparent;
+    border-top-left-radius: 30px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 30px;
+    gap: 15px;
+
+}
+
+.urlsnew::-webkit-scrollbar{
+    background: #005faf;
+    border-radius: 50px;
+    width: 5px;
+
+}
+
+.urlsnew li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-width: 100px;
+    height: 50px;
+    margin-top: 25px;
+    background-color: black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 30px;
+    
+}
+
+.urlsnew li a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-wrap: wrap;
+    margin: 10px;
+    gap: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.urlsnew button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 18px;
+    height: 18px;
+    font-weight: bold;
+    background: red;
+    color: white;
+    
+  
+}
+
+.delete-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: #005fb0;
+    position: relative;
+    top: 400px;
+}
+
+.icons, .trailer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    width: 750px;
+    height: 60px;
+    opacity: 0.6;
+    gap: 15px;
+}
+
+footer a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(360deg) brightness(102%) contrast(102%);
+}
+
+footer img {
+    background-color: white;
+    width: 30px;
+    padding: 5px;
+    border-radius: 30%;
+}
+
+h3 {
+    width: 80px;
+    text-align: center;
+    margin-left: 2px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+
+/* Media Query segun pantalla 
+320px — 480px: Dispositivos móviles
+481px — 768px: iPads, Tabletas
+769px — 1024px: pantallas pequeñas, laptops
+1025px — 1200px: Computadoras de escritorio, pantallas grandes
+1201px y más —  Pantallas extra-grandes, TV
+*/
+
