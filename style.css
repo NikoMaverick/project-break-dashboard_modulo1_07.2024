@@ -67,12 +67,12 @@ body{
 	border-bottom-right-radius: 70px;
 }
 
-/* MAIN Reloj */
 body {
-	background-image: url(../assets/img/Top\ Gun\ 2.jpeg);
+	background-image: url(./assets/img/Top\ Gun\ 2.jpeg);
 	background-size: 100%;
 } 
 
+/* MAIN Reloj */
 .datatime {
 	background-color: black;
 	width: 250px;
@@ -126,7 +126,6 @@ body {
 
 
 /* MAIN Password */
-
 
 .main-password{
 	background-color: black;
@@ -240,7 +239,6 @@ body {
 }
 
 /* MAIN Urls*/
-
 
 .main-urls{
     background-color: transparent;
