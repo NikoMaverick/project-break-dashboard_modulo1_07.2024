@@ -46,7 +46,7 @@ table {
 
 body {
 	background-image: url(../assets/img/Top\ Gun\ 1.jpeg);
-	background-size: 100%;
+	background-size: cover;
 } 
 
 header{
@@ -75,14 +75,14 @@ header img{
 
 .datatime {
 	background-color: black;
+	width: 600px;
+	height: 200px;
 	opacity: 0.6;
 	padding: 2%;
 	position: absolute;
+    transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
-	width: 350px;
-	height: 180px;
 	border-radius: 20px;
 	font-size: 50px;
 	text-align: center;
@@ -93,15 +93,15 @@ header img{
 	border-bottom-right-radius: 70px;
 }
 .son {
-	font-size: 20px;
+	font-size: 25px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-decoration: none;
 	color: white;
-	padding: 5px;
+	padding: 10px;
 }
 
 .reloj {
-	font-size: 50px;
+	font-size: 60px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-decoration: none;
 	color: white;
@@ -109,7 +109,7 @@ header img{
 }
 
 .date {
-	font-size: 20px;
+	font-size: 25px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-decoration: none;
 	color: white;
@@ -117,7 +117,7 @@ header img{
 }
 
 .phrases {
-	font-size: 20px;
+	font-size: 25px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-decoration: none;
 	color: white;

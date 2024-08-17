@@ -46,7 +46,7 @@ table {
 
 body {
 	background-image: url(../assets/img/Top\ Gun\ 13.jpeg);
-	background-size: 100%;
+	background-size: cover;
 } 
 
 header{
@@ -108,8 +108,6 @@ header img{
 .title img{
     width: 50px;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(360deg) brightness(102%) contrast(102%);
-    
-
 }
 
 .links{

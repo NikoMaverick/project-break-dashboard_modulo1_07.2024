@@ -44,18 +44,12 @@ table {
 
 /* DASHBOARD */
 
-body{
-    
-}
-
-/* HEADER */
-
 .header-top{
-    display: flex;
     align-items: center;
     justify-content: center;
+	position: absolute;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 60px;
     width: 220px;
     height: 30px;
     background-color: black;
@@ -67,22 +61,34 @@ body{
 	border-bottom-right-radius: 70px;
 }
 
+
+
+.header-top img {
+	background-color: none;
+	width: 150px;
+	filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(360deg) brightness(102%) contrast(102%);
+	position: absolute;
+	margin-left: -30px;
+	
+
+}
+
 body {
 	background-image: url(./assets/img/Top\ Gun\ 2.jpeg);
-	background-size: 100%;
+	background-size: cover;
 } 
 
 /* MAIN Reloj */
 .datatime {
 	background-color: black;
-	width: 250px;
+	width: 320px;
 	height: 160px;
 	opacity: 0.6;
 	padding: 2%;
 	position: absolute;
+    transform: translate(-50%, -50%);
     left: 50%;
     top: 20%;
-    transform: translate(-50%, -50%);
 	border-radius: 20px;
 	font-size: 50px;
 	text-align: center;
@@ -93,7 +99,7 @@ body {
 	border-bottom-right-radius: 70px;
 }
 .son {
-	font-size: 18px;
+	font-size: 25px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-decoration: none;
 	color: white;
@@ -133,7 +139,7 @@ body {
 	padding: 2%;
 	position: absolute;
     left: 19%;
-    top: 40%;
+    top: 38%;
     transform: translate(-50%, -50%);
 	width: 410px;
 	height: 200px;
@@ -144,14 +150,14 @@ body {
 	border-bottom-right-radius: 70px;
 }
 
-.title-url{
+.title-password{
 	background-color: black; 
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 5px;
 	color: white;
-	font-size: 20px;
+	font-size: 25px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	gap: 10px;
     border-top-left-radius: 70px;
@@ -161,14 +167,14 @@ body {
 
 }
 
-.title h2{
+.title-password h2{
 	display: flex;
 	justify-content: center;
 	color: white;
 }
 
-.title img{
-	width: 18px;
+.title-password img{
+	width: 30px;
 	background-color: none;
 	filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(360deg) brightness(102%) contrast(102%);
 }
@@ -202,7 +208,7 @@ body {
 
 .securepass label{
 	background-color: none;
-	font-size: 18px;
+	font-size: 20px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -246,7 +252,7 @@ body {
 	padding: 2%;
 	position: absolute;
     left: 80%;
-    top: 44%;
+    top: 46%;
     transform: translate(-50%, -50%);
     width: 410px;
     margin: 5px 5px;
@@ -257,11 +263,11 @@ body {
     
 }
 
-.title{
+.title-url{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     gap: 15px;
@@ -272,11 +278,11 @@ body {
 	border-bottom-right-radius: 70px;
 }
 
-.title img{
-    width: 30px;
+.title-url img{
+    width: 35px;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(360deg) brightness(102%) contrast(102%);
-    
 }
+
 
 .links{
     display: flex;
@@ -456,3 +462,5 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
+
+

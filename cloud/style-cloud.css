@@ -47,7 +47,7 @@ table {
 
 body {
 	background-image: url(../assets/img/Top\ Gun\ 15.png);
-	background-size: 100%;
+	background-size: cover;
 } 
 
 header{
