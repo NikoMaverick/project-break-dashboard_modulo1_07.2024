@@ -25,7 +25,7 @@ function getLocation() {
 // Realizamos la función para obtener los datos de la API.
 async function getWeatherData(lat, lon) {
     try {
-        const url = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${lat},${lon}&aqi=no&days=1`;
+        const url = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${lat},${lon}&aqi=no&days=1`;
         const response = await fetch(url);
         
         // Comprobamos que la respuesta es correcta, sino, lanzamos un error.
