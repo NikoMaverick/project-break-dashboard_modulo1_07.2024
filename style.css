@@ -81,14 +81,14 @@ body {
 /* MAIN Reloj */
 .datatime {
 	background-color: black;
-	width: 320px;
+	width: 315px;
 	height: 160px;
 	opacity: 0.6;
 	padding: 2%;
 	position: absolute;
     transform: translate(-50%, -50%);
-    left: 50%;
-    top: 20%;
+    left: 50.5%;
+    top: 22%;
 	border-radius: 20px;
 	font-size: 50px;
 	text-align: center;
@@ -439,17 +439,19 @@ body {
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(360deg) brightness(102%) contrast(102%);
 }
 
-.main-Weather{
+.main-weather{
     background-color: black;
 	opacity: 0.6;
 	padding: 1%;
 	position: absolute;
-    left: 48%;
+    left: 49%;
     top: 60%;
     transform: translate(-50%, -50%);
-	width: 580px;
+	width: 340px;
 	height: 210px;
     margin: 10px;
+	margin-top: 20px;
+	margin-left: 20px;
 	border-radius: 20px;
 	border-top-left-radius: 50px;
 	border-top-right-radius: 10px;
@@ -472,8 +474,11 @@ body {
 .cityTime{
   background-color: none;
   display: flex;
-  gap: 120px;
-  margin-left: 15px;
+  gap: 30px;
+  width: 315px;
+  height: 35px;
+  margin-top: 2px;
+  margin-left: 8px;
 }
 
 .textCondition{
@@ -489,8 +494,9 @@ body {
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
-    width: 570px;
+    width: 315px;
     height: 50px;
+	margin-left: 8px;
 }
 
 .iconWeather{
@@ -545,11 +551,11 @@ body {
     justify-content: flex-start;
     gap: 35px;
     overflow: scroll;
-    background-color: none;
+    background-color:  none;
     margin-right: 20px;
-    width: 540px;
+    width: 300px;
     margin-left: 20px;    
-    margin-top: 10px;
+    margin-top: 6px;
 }
 
 .forecast-info::-webkit-scrollbar {
@@ -579,6 +585,7 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
+    
 }
 
 
@@ -631,6 +638,16 @@ h3 {
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+}
+
+@media (min-width:900px){
+	.index section{
+		flex-direction: column;
+		align-items: center;
+		max-width: 500px;
+		width: 100%;
+		height: auto;
+	}
 }
 
 
