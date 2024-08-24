@@ -33,4 +33,4 @@ const changeBackground = () => {
 
 // Llamamos a la funcion para que recargar la pagina se cambia el fondo y llamamos a la funcion para que cambie el fondo cada tiempo que estimemos
 changeBackground();
-setInterval(changeBackground, 5000);
+setInterval(changeBackground, 20000);
