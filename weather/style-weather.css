@@ -46,8 +46,11 @@ table {
 
 
 body {
-	background-image: url(../assets/img/Top\ Gun\ 15.png);
 	background-size: cover;
+	background-attachment: fixed;
+	background-color: black;
+	background-position: center;
+	transition: all .5s ease;
 } 
 
 header{

@@ -45,8 +45,11 @@ table {
 /* URLS */
 
 body {
-	background-image: url(../assets/img/Top\ Gun\ 13.jpeg);
 	background-size: cover;
+	background-attachment: fixed;
+	background-color: black;
+	background-position: center;
+	transition: all .5s ease;
 } 
 
 header{
