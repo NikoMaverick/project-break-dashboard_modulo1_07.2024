@@ -55,7 +55,7 @@ body {
 header{
 	display: flex;
     justify-content: center;
-    height: 150px;
+    height: 120px;
 	margin-top: 20px;
     background-color: transparent;
 }
@@ -101,11 +101,13 @@ header img{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     gap: 15px;
-    background-color: black;
+    background-color: #005faf;
     border-top-left-radius: 70px;
 	border-top-right-radius: 10px;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 70px;
+    width: 550px;
+    margin-left: 15%;
 }
 
 .urlTitle img{
@@ -293,4 +295,6 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
+
+
 
