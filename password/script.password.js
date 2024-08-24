@@ -34,11 +34,18 @@ function passwordNew(passnumber) {
 function newPass() {
     const passhInput = document.getElementById('pass');
     const passnumber = parseInt(passhInput.value);
+
+    // Creamos una alerta para que el usuario añada la clave con los caracteres indicados.
+    if (passnumber < 12 || passnumber > 50) {
+      alert("Introduce un valor correcto entre 12 y 50");
+      return;
+  }
   
     // Con la longitud del input anteriormente, nos devuelve el resultado cuando llamemnos a la funcion passwordNew
     const password = passwordNew(passnumber);
     const newResult = document.getElementById('newResult');
 
+    
     // añadimos en el html la clave
     newResult.innerHTML = `Tu clave es: ${password}`; 
   }
