@@ -419,11 +419,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    width: 350px;
     height: 35px;
     position: absolute;
     left: 50%;
-    top: 35%;
+    top: -10%;
     transform: translate(-50%, -50%);
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;

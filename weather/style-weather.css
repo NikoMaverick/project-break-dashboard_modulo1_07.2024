@@ -86,7 +86,7 @@ header img{
     height: 35px;
     position: absolute;
     left: 50%;
-    top: 35%;
+    top: -20%;
     transform: translate(-50%, -50%);
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -239,7 +239,7 @@ header img{
 .forecast-hour{
     background-color: none;
     height: 70px;
-    margin-top: 5px;
+    margin-top: 0px;
     margin-bottom: 5px;
     height: 85px;
     justify-content: center;
